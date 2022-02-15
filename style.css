@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+.caraousel-container{
+  overflow: hidden;
+
+}
+.caraousel-slide{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 600%;
+}
+
+.image {
+  width: 100vw;
+  transition: 2s;
+}
+.btn {
+  display: none;
+ 
+}
+
+
+/* css foro mannual navigation */
+.naviagtion-mannual {
+  position: absolute;
+  /* width:800px; */
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  left:47vw;
+}
+.mannual-btn {
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;;
+  padding: 0.5em;
+  transition: 1s;
+  margin:1vw;
+  background-color: aqua;
+}
+
+.prevBtn{
+  position: absolute;
+  left: 46%;
+}
+.nextBtn{
+  position: relative;
+  left: 50%;
+
+}
